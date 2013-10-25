@@ -7,13 +7,19 @@ A simple javascript library that's assign a class name for you as easy as possib
 <script>
 	$(document).ready(function()
 	{
-		activeNavbar.init();
+		/*
+		 * 
+		 * You also can pass another class name than "active" to this function as parameter, 
+		 * for example: activeNavbar.init("my-active-class");
+		 *
+		 */
+		activeNavbar.init(); 
 	});
 </script>
 
 <ul class="activeNavbar">
-	<a href="/something">Something</a>
-	<a href="/contact">Contact</a>
+	<li><a href="/something">Something</a></li>
+	<li><a href="/contact">Contact</a></li>
 </ul>
 ```
 
