@@ -19,3 +19,6 @@ A simple javascript library that's assign a class name for you as easy as possib
 
 You only need to assign a class called activeNavbar to parent element. The library will check if that the current URL match with the URL from href tag.
 
+###Requirements
+
+jQuery 1.7+
